@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27%;
+    margin-top: 2.5%;
+}
+
+.search-bar {
+    background-color: rgb(237, 237, 237);
+    text-align: center;
+}
+/* p margin: 0 erases spaces around p element */
+.search-bar > p {
+    margin: 0;
+    padding-top: 0.3em;
+}
+
+.search-bar > input {
+    margin: 0.3em;
+}
+
+.search-bar > button {
+    width: 8%;
+}
+
+/* to place divs under the section display: flex works, justify-content allows horizontal alignment */
+#link-bars {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5%;
+    
+}
+
+
+.link-1 {
+    background-color: rgba(130, 226, 194, 0.84);
+    width: 33%;
+    text-align: center;  
+    padding-top: 1em;  
+    line-height: 1.3em;
+}
+
+/* display:block allows links to be horizontal instead of being inline */
+.link-1 > a {
+    display: block;
+        
+}
+
+.link-2 {
+    background-color: rgb(74, 189, 189);
+    width: 33%;
+    text-align: center;
+    padding: 0.9em 0;
+}
+
+.link-2 > a {
+    display: block;
+}
+
+
+.link-3 {
+    background-color: rgb(30, 159, 159);
+    width: 33%;
+    text-align: center; 
+}
+
+.link-3 > p {
+    margin: 0.2em 0 0.4em 0;    
+}
+
+.link-3 > a {
+    padding-left: 1em;
+    font-size: 0.95em;
+}
+
+.link-3 > button {
+    width: 16%;
+    height: 27%;
+}
+
+#main-search {
+    width: 25%;
+    padding: 0.2em;
+}
+
+#second-search {
+    width: 40%;
+    margin-bottom: 0.05em;
+    padding: 0.2em;
+}
+
+footer { 
+    text-align: center;
+    margin-top: 1em;
+    font-size: 0.9em;
+}
